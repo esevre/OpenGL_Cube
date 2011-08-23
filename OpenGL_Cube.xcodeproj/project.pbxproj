@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		C557D4B813A0447100DDE5B3 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C557D4B713A0447100DDE5B3 /* main.cpp */; };
+		C557D4C013A0449600DDE5B3 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C557D4BF13A0449600DDE5B3 /* OpenGL.framework */; };
+		C557D4C213A0449D00DDE5B3 /* GLUT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C557D4C113A0449D00DDE5B3 /* GLUT.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -26,6 +28,8 @@
 		C557D4B313A0447100DDE5B3 /* OpenGL_Cube */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = OpenGL_Cube; sourceTree = BUILT_PRODUCTS_DIR; };
 		C557D4B713A0447100DDE5B3 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		C557D4B913A0447100DDE5B3 /* OpenGL_Cube.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = OpenGL_Cube.1; sourceTree = "<group>"; };
+		C557D4BF13A0449600DDE5B3 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
+		C557D4C113A0449D00DDE5B3 /* GLUT.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLUT.framework; path = System/Library/Frameworks/GLUT.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +37,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C557D4C213A0449D00DDE5B3 /* GLUT.framework in Frameworks */,
+				C557D4C013A0449600DDE5B3 /* OpenGL.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +48,8 @@
 		C557D4A813A0447100DDE5B3 = {
 			isa = PBXGroup;
 			children = (
+				C557D4C113A0449D00DDE5B3 /* GLUT.framework */,
+				C557D4BF13A0449600DDE5B3 /* OpenGL.framework */,
 				C557D4B613A0447100DDE5B3 /* OpenGL_Cube */,
 				C557D4B413A0447100DDE5B3 /* Products */,
 			);
